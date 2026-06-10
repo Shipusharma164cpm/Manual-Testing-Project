@@ -1,30 +1,34 @@
-# Bug Report
+# Defect Log
 
-## BUG001
+## BUG_001
 
-Title:
-Login button not responding
+Summary:
+Login button remains disabled after entering valid credentials.
 
 Module:
-Login
+Customer Login
 
 Severity:
-High
+Major
 
 Priority:
 High
 
-Steps to Reproduce:
+Environment:
+Windows 11
+Chrome Browser Version 137
+
+Steps:
 1. Open Login Page
-2. Enter valid username
-3. Enter valid password
-4. Click Login
+2. Enter valid Customer ID
+3. Enter valid Password
+4. Observe Login button
 
-Expected Result:
-User should login successfully.
+Expected:
+Login button should be enabled.
 
-Actual Result:
-Nothing happens after clicking Login.
+Actual:
+Login button remains disabled.
 
 Status:
 Open
