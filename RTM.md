@@ -1,7 +1,7 @@
 # Requirement Traceability Matrix
 
-| Requirement ID | Requirement | Test Case |
-|---------------|------------|-----------|
-| R001 | User Login | TC001 |
-| R002 | Invalid Login | TC002 |
-| R003 | Username Validation | TC003 |
+| Requirement ID | Requirement Description | Test Case ID |
+|---------------|-------------------------|-------------|
+| BR_001 | Customer should login successfully | TC_LOGIN_001 |
+| BR_002 | Error message for invalid credentials | TC_LOGIN_002 |
+| BR_003 | Validation for mandatory password field | TC_LOGIN_003 |
