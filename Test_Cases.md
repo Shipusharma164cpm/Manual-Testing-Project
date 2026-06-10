@@ -1,38 +1,46 @@
 # Login Module Test Cases
 
-## TC001 - Valid Login
+## TC_LOGIN_001 - Verify login with valid customer credentials
 
-Steps:
-1. Open Login Page
-2. Enter valid username
-3. Enter valid password
+Precondition:
+Customer account should be active.
+
+Test Steps:
+1. Open Banking Portal
+2. Enter valid Customer ID
+3. Enter valid Password
 4. Click Login
 
 Expected Result:
-User should login successfully.
+Customer should be redirected to Account Summary page.
 
-Status: Pass
+Priority:
+High
 
----
-
-## TC002 - Invalid Password
-
-Steps:
-1. Open Login Page
-2. Enter valid username
-3. Enter invalid password
-4. Click Login
-
-Expected Result:
-Error message should be displayed.
-
-Status: Pass
+Status:
+Pass
 
 ---
 
-## TC003 - Empty Username
+## TC_LOGIN_002 - Verify login with invalid password
+
+Test Steps:
+1. Enter valid Customer ID
+2. Enter invalid Password
+3. Click Login
 
 Expected Result:
-Validation message should appear.
+System should display "Invalid Credentials" message.
 
-Status: Pass
+Priority:
+High
+
+Status:
+Pass
+
+---
+
+## TC_LOGIN_003 - Verify login with blank password field
+
+Expected Result:
+Validation message should be displayed.
