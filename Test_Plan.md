@@ -1,38 +1,36 @@
 # Test Plan
 
-## Project Name
-Online Banking Application
+Project Name:
+Retail Internet Banking Application
 
-## Objective
-To verify that all banking functionalities work as expected and meet business requirements.
+Test Cycle:
+Cycle 1 - Functional Validation
 
-## Scope
-### In Scope
+Objective:
+Validate customer-facing banking functionalities before release.
+
+Modules Covered:
 - Login
 - Registration
-- Fund Transfer
 - Account Summary
+- Fund Transfer
 - Transaction History
 
-### Out of Scope
-- Performance Testing
-- Security Testing
-
-## Test Types
-- Functional Testing
+Testing Approach:
 - Smoke Testing
+- Functional Testing
 - Regression Testing
 
-## Entry Criteria
-- Application build available
-- Requirements documented
+Entry Criteria:
+- Stable build deployed
+- Requirements approved
 
-## Exit Criteria
-- All critical defects closed
-- Test cases executed successfully
+Exit Criteria:
+- No Critical defects open
+- All High Priority defects resolved
 
-## Deliverables
+Deliverables:
 - Test Cases
-- Bug Reports
+- Defect Log
 - RTM
 - Test Summary Report
